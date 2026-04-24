@@ -10,7 +10,7 @@ This repo contains the source files for the [adibue.dev] web page.
 
 ### Code
 
-All things code, such as scripts (`.sh`, `.zsh` etc.), config files (`.json`, `.yaml` etc.) and snippets are licensed under the **MIT License**.  
+All things code, such as scripts (`.sh`, `.zsh` etc.), config files (`.json`, `.yaml` etc.) and snippets are licensed under the **MIT License**.
 See the [LICENSE](LICENSE) file for details.
 
 > In short: You are free to use, modify, and distribute the code, provided you retain the copyright notice.
@@ -29,14 +29,15 @@ _These files may not be copied, modified, or used in other projects without expl
 
 ### Upstream sources
 
-This website is based on the _[Just the Docs]_ template.  
+This website is based on the _[Just the Docs]_ template.
 A copy of their MIT License is available in _[just-the-docs/just-the-docs-template]_.
 
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party _[starter workflows]_.  
+The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party _[starter workflows]_.
 A copy of their MIT License is available in _[actions/starter-workflows]_.
 
 ---
 
+[adibue.dev]: https://adibue.dev
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [just-the-docs/just-the-docs-template]: https://github.com/just-the-docs/just-the-docs-template/blob/main/LICENSE
 [starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
