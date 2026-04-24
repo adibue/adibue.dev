@@ -1,5 +1,7 @@
 # adibue.dev Source
 
+**BEWARE: WORK IN PROGRESS!**
+
 This repo contains the source files for the [adibue.dev] web page.
 
 ---
