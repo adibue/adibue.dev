@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Tile is usually added above content by the theme. If not: -->
+<h1>{{ page.title }}</h1>
+
+<!-- Date display: Only if a date is set in the front matter -->
+{% if page.date %}
+<div
+  class="post-meta"
+  style="margin-bottom: 1.5rem; font-size: 0.9em; color: #666"
+>
+  <span>📅 Published: {{ page.date | date: "%Y-%m-%d" }}</span>
+
+  {% if page.last_modified_at %}
+  <span style="margin-left: 10px">
+    (Updated: {{ page.last_modified_at | date: "%Y-%m-%d" }})
+  </span>
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- The actual content of the article -->
+{{ content }}

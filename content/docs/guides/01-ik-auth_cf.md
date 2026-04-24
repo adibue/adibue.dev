@@ -1,9 +1,13 @@
 ---
 title: "Use ik-auth in Cloudflare One"
 description: "This guide explains how to integrate Infomaniak Auth as an Identity Provider into Cloudflare One ZTNA."
-layout: default
+layout: page
 parent: Guides
 nav_order: 1
+date: 2026-04-24
+last_modified_at: 2026-04-24
+categories: guides
+tags: [infomaniak, cloudflare, oidc, sso]
 ---
 
 # How to use Infomaniak Auth as an IdP in Cloudflare One
