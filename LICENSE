@@ -1,16 +1,33 @@
 MIT License
 
-Copyright (c) 2022 just-the-docs
+Copyright (c) 2026 Adrian Bühler (@adibue)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+2. ETHICAL USE RESTRICTIONS:
+   Notwithstanding the permissions granted above, the Software may NOT be used:
+
+   a) HARMFUL AI TRAINING: To train, fine-tune, or develop artificial intelligence
+   or machine learning models that are intended to cause harm, deceive, manipulate,
+   or infringe upon human rights, privacy, or dignity.
+
+   b) MILITARY USE: For any military, warfare, intelligence, or national security
+   purposes, including but not limited to the development of weapons systems,
+   surveillance technologies, or tactical operations.
+
+   c) ADVERTISING & MANIPULATION: For advertising, marketing, or promotional
+   purposes designed to manipulate user behavior or exploit psychological
+   vulnerabilities.
+
+   d) ILLEGAL ACTIVITIES: For any purpose that violates applicable local,
+   national, or international laws.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
