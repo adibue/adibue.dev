@@ -15,7 +15,7 @@ layout: default
 
   {% if page.last_modified_at %}
   <span style="margin-left: 10px">
-    (Updated: {{ page.last_modified_at | date: "%Y-%m-%d" }})
+    (Updated: {{ page.last_modified_at | timeago }})
   </span>
   {% endif %}
 </div>
