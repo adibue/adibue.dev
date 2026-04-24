@@ -1,6 +1,7 @@
 title: adibue.dev
 description: Where the magic happens!
 logo: /assets/branding/adibue128x.png
+favicon_ico: /assets/branding/favicon.ico
 theme: just-the-docs
 baseurl: ""
 url: https://adibue.dev
@@ -28,3 +29,12 @@ mermaid:
 
 plugins:
   - jekyll-timeago
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - LICENSE
+  - README.md
