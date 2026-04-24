@@ -1,8 +1,26 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: adibue.dev
+description: Where the magic happens!
 theme: just-the-docs
+baseurl: ""
+url: https://adibue.dev
+repository: adibue/adibue.dev
 
-url: https://just-the-docs.github.io
+# aux_links:
+#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false
+heading_anchors: true
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.14.0"
