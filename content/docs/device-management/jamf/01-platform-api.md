@@ -21,12 +21,16 @@ tags:
   ]
 ---
 
-# Jamf Platform API
-
 If your company partners with Jamf for its device management, chances are you do have multiple Jamf products in use - each of them having their own API endpoints and clients.
 To make the life of SysAdmins a little easier, Jamf introduced the [Platform API Gateway](https://developer.jamf.com/platform-api/reference/getting-started-with-platform-api) - one API platform to rule 'em all!
 
 This page serves as a collection of samples and snippets (mainly for using in shell scripts), so one does not have to write one's common API calls over and over again.
+
+{: .highlight-title }
+> Table of Contents
+>
+>- TOC
+>{:toc}
 
 ---
 
@@ -36,7 +40,7 @@ For interacting with the Platform API, create an [_Integration_](https://account
 In my examples, I use the level _**Tenant**_ in the _Region_ **EU**. If your setup differs, adjust the variables mentioned in the next section accordingly.
 If you are unsure what permission your integration client is going to require, just have a look at the [Platform API Gateway documentation](https://developer.jamf.com/platform-api/reference/getting-started-with-platform-api), where all the permission requirements for every API endpoint are listed.
 
-### Variables
+### Basic variables
 
 The first things we need, are four variables:
 
