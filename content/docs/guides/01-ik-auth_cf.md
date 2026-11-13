@@ -1,5 +1,5 @@
 ---
-title: "Use ik-auth in Cloudflare One"
+title: "Infomaniak as Cloudflare One IdP"
 description: "This guide explains how to integrate Infomaniak Auth as an Identity Provider into Cloudflare One ZTNA."
 layout: page
 parent: Guides
@@ -9,8 +9,6 @@ last_modified_at: 2026-04-24
 categories: guides
 tags: [infomaniak, cloudflare, oidc, sso]
 ---
-
-# How to use Infomaniak Auth as an IdP in Cloudflare One
 
 Infomaniak Auth (ik-auth) is an OpenID Connect (OIDC) based identity provider useful for integrating into applications for SSO.
 
