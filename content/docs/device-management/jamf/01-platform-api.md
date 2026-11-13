@@ -1,6 +1,6 @@
 ---
 title: "Jamf Platform API"
-description: "A few notes and snippets for making scripting a little easier :-)"
+description: "A few notes and snippets to make scripting a little easier :-)"
 layout: page
 parent: Jamf
 nav_order: 1
@@ -26,11 +26,15 @@ To make the life of SysAdmins a little easier, Jamf introduced the [Platform API
 
 This page serves as a collection of samples and snippets (mainly for using in shell scripts), so one does not have to write one's common API calls over and over again.
 
+<!-- prettier-ignore-start -->
+
 {: .highlight-title }
 > Table of Contents
 >
 >- TOC
 >{:toc}
+
+<!-- prettier-ignore-end -->
 
 ---
 

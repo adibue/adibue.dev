@@ -1,0 +1,5 @@
+# Ignore markdown files (handled separately)
+*.md
+
+# Ignore other files as needed
+site.webmanifest
