@@ -2,7 +2,7 @@
 title: Guides
 description: "Useful guides for interesting things."
 layout: default
-nav_order: 1
+nav_order: 2
 ---
 
 # Guides
