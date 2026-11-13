@@ -2,8 +2,8 @@
 title: "Jamf Platform API"
 description: "A few notes and snippets for making scripting a little easier :-)"
 layout: page
-parent: Guides
-nav_order: 0
+parent: Jamf
+nav_order: 1
 date: 2026-11-13
 last_modified_at: 2026-11-13
 categories: device-management
@@ -19,8 +19,6 @@ tags:
     apple,
     macos,
   ]
-nav_exclude: true
-search_exclude: true
 ---
 
 # Jamf Platform API
@@ -47,7 +45,10 @@ The first things we need, are four variables:
 - `CLIENT_ID`: The _Client ID_ of your integration (surprise!)
 - `CLIENT_SECRET`: You will never guess this one 🙃
 
-> [!tip] Local .env for testing
+{: .note-title }
+
+> Local .env for testing
+>
 > In Jamf Pro, such variables can be passed as script parameters (_\$4-\$11_).
 > For developing and testing locally, just write them into an `.env` file (_**you absolutely want this in your `.gitignore`!**_) placed next to the script you are working on and use the following function to source them:
 >
