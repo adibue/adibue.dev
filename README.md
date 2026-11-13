@@ -1,8 +1,14 @@
 # adibue.dev Source
 
-**BEWARE: WORK IN PROGRESS!**
-
 This repo contains the source files for the [adibue.dev] web page.
+
+---
+
+## Building and testing
+
+1. Install `ruby`
+2. Install and configure dependencies with `bundle install`
+3. Run a local webserver on _http://localhost:4000_ with `bundle exec jekyll serve --baseurl=""`
 
 ---
 
