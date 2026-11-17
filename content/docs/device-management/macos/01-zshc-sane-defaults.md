@@ -20,6 +20,8 @@ With the introduction of macOS 10.15 Catalina back in 2019, Apple switched the d
 That's what I recommend scripting for. It is the Apple approved way, built into macOS and compatible with the majority of Shell and Bash scripts.
 Enough reasons not to leave Apple's paved path 🙂
 
+---
+
 ## Start clean
 
 I run a lot of scripts triggered by Jamf Pro and I am sure you are, too!
@@ -33,6 +35,8 @@ echo "Hello, $(whoami)"
 ```
 
 (Source: [Scripting OS X](https://scriptingosx.com/2024/03/zsh-scripts-and-root-escalations/))
+
+---
 
 ## SIP by default
 
@@ -78,3 +82,20 @@ jamf policy -verbose
 ```
 
 Personally, I like the function approach. But if you run a small script where an affected binary is just called once, the first option may be the easiest.
+
+---
+
+## Logged in user and user home
+Often, a script has to manipulate files within the home of the logged in user.
+Let's start by storing the current user's username as `CURRENT_USER`:
+
+```shell
+CURRENT_USER=$(scutil <<< "show State:/Users/ConsoleUser" | awk '/Name :/ { print $3 }')
+```
+
+Usually, the user home in macOS is located in `/Users/{$username}`. In theory, defining the user home as `/Users/"$CURRENT_USER"` would work, and it probably does in many cases.
+However, this is not a given. To make sure the user home is set correctly, better read it from the [_Directory Service_](https://www.unix.com/man_page/osx/1/dscl/) instead:
+
+```shell
+USER_HOME=$(dscl . -read /Users/"$CURRENT_USER" NFSHomeDirectory | awk '{print $2}')
+```
